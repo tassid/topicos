@@ -1,0 +1,17 @@
+
+
+### retornar pessoas
+GET http://localhost:8080/person
+
+
+### criar pessoa
+POST  http://localhost:8080/person
+Content-Type: application/json
+
+{
+  "name": "fulanooo de Tal",
+  "email": "fulaninho@gmail.com"
+}
+
+### retornar pessoa por id
+GET http://localhost:8080/person/d591708e-ad45-4f60-b283-32ef8b596a24
